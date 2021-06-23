@@ -1,8 +1,6 @@
-﻿using System;
-using UnityEngine;
-using System.Collections.Generic;
-using System.Collections;
+﻿using System.Collections;
 using System.Reflection;
+using UnityEngine;
 
 // This will add a tab to the Stock Settings in the Difficulty settings called "StageLock"
 // To use, reference the setting using the following:
@@ -19,11 +17,11 @@ namespace StageLock
 
     public class StageLock_Options : GameParameters.CustomParameterNode
     {
-        public override string Title { get { return "Default Settings"; } }
-        public override GameParameters.GameMode GameMode { get { return GameParameters.GameMode.ANY; } }
-        public override string Section { get { return "StageLock"; } }
-        public override string DisplaySection { get { return "StageLock"; } }
-        public override int SectionOrder { get { return 1; } }
+        public override string Title => "Default Settings";
+        public override GameParameters.GameMode GameMode => GameParameters.GameMode.ANY;
+        public override string Section => "StageLock";
+        public override string DisplaySection => "StageLock";
+        public override int SectionOrder => 1;
 
         /// <summary>
         /// The needs EC to start in GameParameters
@@ -88,14 +86,14 @@ namespace StageLock
         //     toolTip = "Two kerbals in the KuddleShack will need this much time to produce a new kerbal")]
         // public int slowUpdateTime = 10; 
 
-#if true        
+#if true
         /// <summary>
         /// Gets a value indicating whether this instance has presets.
         /// </summary>
         /// <value>
         ///   <c>true</c> if this instance has presets; otherwise, <c>false</c>.
         /// </value>
-        public override bool HasPresets { get { return true; } }
+        public override bool HasPresets => true;
         /// <summary>
         /// Sets the difficulty preset.
         /// </summary>
@@ -138,7 +136,7 @@ namespace StageLock
         /// <param name="member"></param>
         /// <param name="parameters"></param>
         /// <returns></returns>
-        public override bool Enabled(MemberInfo member, GameParameters parameters) { return true; }
+        public override bool Enabled(MemberInfo member, GameParameters parameters) => true;
 
         /// <summary>
         /// 
@@ -146,15 +144,14 @@ namespace StageLock
         /// <param name="member"></param>
         /// <param name="parameters"></param>
         /// <returns></returns>
-        public override bool Interactible(MemberInfo member, GameParameters parameters) { return true; }
-        
+        public override bool Interactible(MemberInfo member, GameParameters parameters) => true;
+
         /// <summary>
         /// 
         /// </summary>
         /// <param name="member"></param>
         /// <returns></returns>
-        public override IList ValidValues(MemberInfo member) { return null; }
+        public override IList ValidValues(MemberInfo member) => null;
     }
 }
 
-   
