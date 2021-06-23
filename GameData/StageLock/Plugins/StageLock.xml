@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StageLock</name>
+    </assembly>
+    <members>
+        <member name="P:StageLock.StageLock_Options.HasPresets">
+            <summary>
+            Gets a value indicating whether this instance has presets.
+            </summary>
+            <value>
+              <c>true</c> if this instance has presets; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="M:StageLock.StageLock_Options.SetDifficultyPreset(GameParameters.Preset)">
+            <summary>
+            Sets the difficulty preset.
+            </summary>
+            <param name="preset">The preset.</param>
+        </member>
+        <member name="M:StageLock.StageLock_Options.Enabled(System.Reflection.MemberInfo,GameParameters)">
+            <summary>
+            
+            </summary>
+            <param name="member"></param>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StageLock.StageLock_Options.Interactible(System.Reflection.MemberInfo,GameParameters)">
+            <summary>
+            
+            </summary>
+            <param name="member"></param>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StageLock.StageLock_Options.ValidValues(System.Reflection.MemberInfo)">
+            <summary>
+            
+            </summary>
+            <param name="member"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
