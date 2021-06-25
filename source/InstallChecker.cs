@@ -81,8 +81,8 @@ namespace StageLock
 		}
 
 		/*
-         * Tries to fix the install if it was installed over the top of a previous version
-         */
+		 * Tries to fix the install if it was installed over the top of a previous version
+		 */
 		void CleanupOldVersions()
 		{
 			try
