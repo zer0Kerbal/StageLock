@@ -1,8 +1,8 @@
 {
-  "schemaVersion": 1,
-  "label": "Code",
-  "labelColor": "darkblue",
-  "message": "<.net 4.8> <Unity 2017> <C# 9.0>",
-  "color": "66ccff",
-  "style": "plastic"
+		"schemaVersion": 1,
+		"label": "Code",
+		"labelColor": "darkblue",
+		"message": "<.net 4.8> <Unity 2017> <C# 9.0>",
+		"color": "66ccff",
+		"style": "plastic"
 }
