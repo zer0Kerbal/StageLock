@@ -3,27 +3,27 @@ StageLock (KPLX)
 created: 01 Oct 18
 updated: 17 Jun 2021 -->
 
+
+
 ## Download on [Curseforge][MOD:curseforge] or [Github][MOD:github] or [SpaceDock][MOD:spacedock]. Also available on [CKAN][MOD:ckan].  
 
 ***
 
 # StageLock (SLCK)  
-## by [@zer0Kerbal][LINK:zer0kerbal]  
+#### by [@zer0Kerbal][LINK:zer0kerbal]  
 
-## KSC building levels increased to ten levels instead of the stock four
+***
+> StageLock is a addon for Kerbal Space Program that adds a small lock button to the right of the stage stack, next to the total dV. Toggling the button icon toggles between a locked lock icon and locks the stages (&lt;ALT>&lt;L>) and an unlocked icon button and unlocks the staging.
+------
 
 ![Mod Version][shield:mod:latest] 
 ![KSP version][shield:ksp] ![KSP-AVC][shield:kspavc] ![License GPLv2][shield:license]  
 ![Curseforge][shield:curseforge] ![CKAN][shield:ckan] ![GitHub][shield:github] ![SpaceDock][shield:spacedock]  
 ![Code][shield:code] ![Validate AVC .version files][shield:avcvalid]  
 
-***
-> StageLock is a addon for Kerbal Space Program that adds a small lock button to the right of the stage stack, next to the total dV. Toggling the button icon toggles between a locked lock icon and locks the stages (&lt;ALT>&lt;L>) and an unlocked icon button and unlocks the staging.
-------
+![Mockup: Locked](https://raw.githubusercontent.com/zer0Kerbal/StageLock/main/img/mockup-locked.png)
 
-<img src="https://raw.githubusercontent.com/zer0Kerbal/StageLock/main/img/mockup-locked.png" alt="Mockup: Locked" style="zoom:200%;" />
-
-<img src="https://raw.githubusercontent.com/zer0Kerbal/StageLock/main/img/mockup-unlocked.png" alt="Mockup: Locked" style="zoom:200%;" />
+![Mockup: Unlocked](https://raw.githubusercontent.com/zer0Kerbal/StageLock/main/img/mockup-unlocked.png)
 
 ### Installation Directions:
 
