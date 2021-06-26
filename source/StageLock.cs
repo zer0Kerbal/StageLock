@@ -393,10 +393,14 @@ namespace StageLock
 		internal const string MODNAME = "StageLock";
 
 		const string NODENAME = "STAGELOCK";
-		//		const string VALUENAME = "keycode";
+
+		//	const string VALUENAME = "keycode";
+
 		bool isLocked = false;
 
-
+		/// <summary>
+		/// 
+		/// </summary>
 		private void stageLockToggle()
 		{
 			// bool FlightInputHandler.stageLock = false
@@ -415,6 +419,9 @@ namespace StageLock
 			//         SetToolbarIcon();
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
 		private void Start()
 		{
 			if (Instance != null)// || !foundToolbarCTB)
@@ -441,6 +448,9 @@ namespace StageLock
 			GameEvents.onGUIApplicationLauncherReady.Add(OnAppLauncherReady);
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
 		private void OnDestroy()
 		{
 			GameEvents.onGUIApplicationLauncherReady.Remove(OnAppLauncherReady);
@@ -448,6 +458,9 @@ namespace StageLock
 			Instance = null;
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
 		private void OnAppLauncherReady()
 		{
 			GameEvents.onGUIApplicationLauncherReady.Remove(OnAppLauncherReady);
@@ -474,6 +487,10 @@ namespace StageLock
 			}
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="scene"></param>
 		private void OnAppLauncherUnreadifying(GameScenes scene)
 		{
 			if (stockButton != null)
@@ -486,11 +503,18 @@ namespace StageLock
 			GameEvents.onGUIApplicationLauncherReady.Add(OnAppLauncherReady);
 		}
 
+		/// <summary>
+		/// Log function
+		/// </summary>
+		/// <param name="s"></param>
 		internal static void Log(string s)
 		{
 			Debug.Log("[StageLock] " + s);
 		}
 
+		/// <summary>
+		/// Update
+		/// </summary>
 		public void Update()
 		{
 			//if false //ApplicationLauncher.AppScenes.FLIGHT. | ApplicationLauncher.AppScenes.MAPVIEW
